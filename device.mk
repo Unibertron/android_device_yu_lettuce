@@ -89,6 +89,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
 
+# Gello
+ PRODUCT_PACKAGES += \
+     Gello
+ 
 # Sensor HAL
 PRODUCT_PACKAGES += \
     calmodule.cfg \
