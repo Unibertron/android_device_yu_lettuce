@@ -15,9 +15,9 @@
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/pac/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_lettuce
+PRODUCT_NAME := pac_lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 
