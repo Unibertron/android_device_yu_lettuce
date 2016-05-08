@@ -15,7 +15,7 @@
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/pac/config/common_full_phone.mk)
+$(call inherit-product, vendor/beanstalk/config/common_full_phone.mk)
 
 PRODUCT_NAME := bs_lettuce
 BOARD_VENDOR := yu
